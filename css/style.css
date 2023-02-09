@@ -1,0 +1,213 @@
+/* font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+*{padding: 0;
+    margin:0;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color:aliceblue
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400; 
+}
+#header_css nav ul li a{
+    font-size: 15px;
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    padding: 5px 10px;
+}
+#header_css nav ul{
+    list-style: none;
+}
+#header_css nav ul li a:hover{
+ background-color: aliceblue;
+ color: #171616;
+}
+#header_css{
+    background-color: #171616;
+}
+
+#header_css nav ul{
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#header_css{
+    display: flex;
+}
+#header_css img{
+    height: auto;
+    max-width: 100px;
+}
+
+.main{
+    height: 300px;
+    background-image: url(../images/BGB.png);
+    background-size: cover;
+    color: #EBE5D9;
+    padding-left: 100px;
+}
+.main img{
+    height: auto;
+    max-width:200px;
+    float: right;
+}
+.coffeeS2{
+    text-align: center;
+}
+.line{
+    height: 100px;
+    width: 300px;
+    padding-left: 300px;
+}
+button :hover{
+    background-color: #DA3833;
+}
+.shop{
+    display: flex;
+    color: aliceblue;
+    background-color: #171616;
+}
+.shop img{
+    width: 200px;
+    max-height: 200px;
+}
+.aboutS3{
+    text-align: center;
+    background-image: url(../images/TJCredBG.png);
+    background-size: cover;
+    height: 300px;
+}
+.caficultorS4{
+    text-align: right;
+    background-image: url(../images/caficultor1.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+.caficultorS4 p:nth-child(2){
+    color: #DA3833;
+}
+.caficultorS4 p:nth-child(3){
+    color: aliceblue;
+}
+.subscribeS5{
+    background-color: #171616;
+    color: aliceblue;
+    text-align: right;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.subscribeS5 img{
+    height: auto;
+    max-width: 300px;
+}
+
+.mainaboutus{
+    text-align: center;
+    background-color: #171616;
+    color: aliceblue;
+    padding-bottom: 100px;
+}
+
+.mainaboutus  img{
+    height: auto;
+    width: 400px;
+}
+
+.aboutusS2red {
+    background-color: #DA3833;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    color: #EBE5D9;
+    padding-top: 100px;
+}
+
+.cafe{
+    font-size: 30px;
+}
+
+.aboutusS3white{
+    text-align: center;
+}
+
+#shopC{
+    background-color: #EBE5D9;
+}
+.store{
+    flex-wrap: wrap;
+}
+.store img{
+    width: 200px;
+    height: auto;
+}
+
+.coffeetastingbox{
+    background-color: #171616;
+    height: 400px;
+    color: #EBE5D9;
+}
+
+.coffeetastingbox img{
+    height: auto;
+    width: 300px;
+}
+.suscriptionsteps{
+    background-color: #171616;
+    color: #EBE5D9;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.suscriptionsteps img {
+    height: 300px;
+    width: auto;
+}
+.suscription_form{
+    text-align: center;
+}
+.suscriptionS2{
+    background-color: #171616;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.suscriptionS2 img{
+    background-color: #171616;
+    height: 300px;
+    width: auto;
+}
+.blog_ad2{
+    text-align: right;
+    background-color: #171616;
+    color: #EBE5D9;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.blog_ad2 img{
+    height: auto;
+    width: 100px;
+}
+
+.contactus_main{
+    color: #EBE5D9;
+    background-image: url(../images/contactusbg.png);
+}
+
+footer{
+    text-align: center;
+}
+footer a i:hover{
+    color: aliceblue;
+}
