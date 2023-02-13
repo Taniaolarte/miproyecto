@@ -141,8 +141,6 @@ button :hover{
     background-size: cover;
     padding-bottom: 80px;
 }
-
-
 .caficultorS4{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -248,10 +246,34 @@ button :hover{
     .intro-text{
         margin-top: 75px;
     }
-
-
+    .grid{
+    display: flex;
+    flex-direction: column;
+    }
+    .grid p{
+        display: none;
+    }
+    .caficultorS4{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 100%;
+        text-align: right;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+    .subscribeS5 div div img{
+        height: 100px;
+    }
+    .subscribeS5 div{
+        margin: 0;
+        padding: 0;
+        height: 100px;
+    }
+    .subscribeS5 div:nth-child(2){
+        padding-top: 10px;
+    }
+    
 }
-
 .aboutusS2red {
     background-color: #DA3833;
     height: 300px;
