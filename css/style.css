@@ -62,9 +62,36 @@ h4{
     padding-left: 100px;
     padding-top: 100px;
 }
+.main h1::after{
+    content: ' ';
+    margin-left: 10px;
+    position: absolute;
+    color: #DA3833;
+    animation: textrotate 8s linear infinite;
+    -webkit-animation: textrotate 8s linear infinite;
+    }
+    @keyframes textrotate{
+    0%{
+        content: ' A BETTER SPECIALITY COFFEE';
+    }
+    50%{
+        content: ' A SUSTAINABLE COFFEE';
+    }
+    100%{
+        content: ' TRY JUST COFFEE';
+    }
+    }
+
 .main img{
     height: auto;
     max-width:230px;
+}
+.main:hover .imge{
+    transform: scale(1.2)
+}
+.imge{
+    transition: all 1.5s ease-in-out;
+
 }
 .info-center{
     text-align: center;
@@ -166,7 +193,16 @@ button :hover{
     height: auto;
     width: 400px;
 }
+.grid-about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3 1fr);
+    margin-left: 200px;
+    margin-right: 200px;
+    row-gap: 50px;
+    text-align: center;
 
+}
 .aboutusS2red {
     background-color: #DA3833;
     height: 300px;
@@ -227,6 +263,12 @@ button :hover{
     background-color: #171616;
     height: 300px;
     width: auto;
+}
+.mb-3{
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .blog_ad2{
     text-align: right;
