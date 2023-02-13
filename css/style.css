@@ -295,7 +295,21 @@ button :hover{
     background-color: #EBE5D9;
 }
 .store{
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 5fr; 
+    grid-template-rows: 0.8fr 8fr;
+    grid-template-areas: 
+    "nav text"
+    "nav productos"
+}
+.store ul{
+    grid-area: nav;
+}
+.store p{
+    grid-area: text;
+}
+.productos{
+    grid-area: productos;
 }
 .store img{
     width: 200px;
