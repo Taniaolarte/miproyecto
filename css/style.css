@@ -99,6 +99,7 @@ h4{
     margin-right: 300px;
     line-height: 1.8;
     padding-top: 80px;
+
 }
 .coffeeS2 h2{
     margin-bottom: 30px;
@@ -140,6 +141,8 @@ button :hover{
     background-size: cover;
     padding-bottom: 80px;
 }
+
+
 .caficultorS4{
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -201,8 +204,48 @@ button :hover{
     margin-right: 200px;
     row-gap: 50px;
     text-align: center;
+}
+
+@media screen and (max-width:500px) {
+    .mainaboutus{
+        padding-top: 10px;
+    }
+    .info-center{
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-top: 10px;
+    }
+    .grid-about{
+        display: grid;
+        margin-left: 20px;
+        margin-right: 20px;
+        row-gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6;
+    }
+    .grid-about div:nth-child(1){
+        order: 2;
+    }
+    .grid-about div:nth-child(2){
+        order: 1;
+    }
+    .grid-about div:nth-child(3){
+        order: 3;
+    }
+    .grid-about div:nth-child(4){
+        order: 4;
+    }
+    .grid-about div:nth-child(5){
+        order: 6;
+    }
+    .grid-about div:nth-child(6){
+        order: 5;
+    }
+
 
 }
+
 .aboutusS2red {
     background-color: #DA3833;
     height: 300px;
