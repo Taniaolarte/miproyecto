@@ -242,6 +242,12 @@ button :hover{
     .grid-about div:nth-child(6){
         order: 5;
     }
+    .bolsacafe {
+        display: none;
+    }
+    .intro-text{
+        margin-top: 75px;
+    }
 
 
 }
