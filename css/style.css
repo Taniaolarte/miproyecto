@@ -272,6 +272,12 @@ button :hover{
     .subscribeS5 div:nth-child(2){
         padding-top: 10px;
     }
+    .contactus_main form{
+        width: 40px;
+    }
+    .suscription_form{
+        width: 20px;
+    }
     
 }
 .aboutusS2red {
