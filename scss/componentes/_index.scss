@@ -80,10 +80,14 @@ header{
                 }
             }
         }
+        @media screen and (max-width:500px){
+            font-size: 20px;
+        }
+        
     }
     h2{
         @media screen and (max-width:500px){
-            margin-top: 75px;
+            margin-top: 50px;
         }
     }
     img{
@@ -226,7 +230,7 @@ header{
         height: auto;
         width: 400px;
         @media screen and (max-width:500px){
-        width: 200px;
+        width: 150px;
         }
     }
     @media screen and (max-width:500px){
@@ -337,6 +341,10 @@ header{
         background-color: $bg-dark;
         height: 300px;
         width: auto;
+        @media screen and (max-width:500px){
+            height: 200px;
+            width: auto;
+        }
     }
 }
 
@@ -359,6 +367,11 @@ header{
     color: nth($colores, 1);
     background-image: url(../images/contactusbg.png);
     text-align: center;
+    h1{
+        @media screen and (max-width:500px){
+            font-size: 20px;
+        }
+    }
 }
 
 footer{

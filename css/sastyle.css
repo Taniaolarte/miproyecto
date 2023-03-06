@@ -115,8 +115,13 @@ header nav ul li a:hover {
   }
 }
 @media screen and (max-width: 500px) {
+  .indexmain h1 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
   .indexmain h2 {
-    margin-top: 75px;
+    margin-top: 50px;
   }
 }
 .indexmain img {
@@ -265,7 +270,7 @@ header nav ul li a:hover {
 }
 @media screen and (max-width: 500px) {
   .mainaboutus img {
-    width: 200px;
+    width: 150px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -374,6 +379,12 @@ header nav ul li a:hover {
   height: 300px;
   width: auto;
 }
+@media screen and (max-width: 500px) {
+  .suscriptionS2 img {
+    height: 200px;
+    width: auto;
+  }
+}
 
 .mb-3 {
   width: 800px;
@@ -394,6 +405,11 @@ header nav ul li a:hover {
   color: aliceblue;
   background-image: url(../images/contactusbg.png);
   text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .contactus_main h1 {
+    font-size: 20px;
+  }
 }
 
 footer {
