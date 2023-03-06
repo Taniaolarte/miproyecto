@@ -110,6 +110,15 @@ header{
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 4fr 1fr;
     grid-row-gap: 15px;
+    @media screen and (max-width:500px){
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    p{
+        display: none;
+    }
+
 }
 .line{
     height: 100px;
@@ -173,6 +182,11 @@ header{
     background-color: $bg-dark;
     color: nth($colores, 1);
     padding-bottom: nth($padding, 5);
+    @media screen and (max-width:500px){
+        margin: 0;
+        padding: 0;
+        height: 250px;
+    }
     
     div{
         padding-top: nth($padding, 4);
@@ -195,6 +209,11 @@ header{
             height: 100px;
         }
     }
+    h2{
+        @media screen and (max-width:500px){
+            display: none;
+        }
+    }
     
 }
 
@@ -206,6 +225,9 @@ header{
     img{
         height: auto;
         width: 400px;
+        @media screen and (max-width:500px){
+        width: 200px;
+        }
     }
     @media screen and (max-width:500px){
         padding-top: 10px;
@@ -336,6 +358,7 @@ header{
 .contactus_main{
     color: nth($colores, 1);
     background-image: url(../images/contactusbg.png);
+    text-align: center;
 }
 
 footer{

@@ -143,6 +143,16 @@ header nav ul li a:hover {
   grid-template-rows: 4fr 1fr;
   grid-row-gap: 15px;
 }
+@media screen and (max-width: 500px) {
+  .grid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.grid p {
+  display: none;
+}
 
 .line {
   height: 100px;
@@ -205,6 +215,13 @@ header nav ul li a:hover {
   color: aliceblue;
   padding-bottom: 100px;
 }
+@media screen and (max-width: 500px) {
+  .subscribeS5 {
+    margin: 0;
+    padding: 0;
+    height: 250px;
+  }
+}
 .subscribeS5 div {
   padding-top: 50px;
   height: 400px;
@@ -230,6 +247,11 @@ header nav ul li a:hover {
     height: 100px;
   }
 }
+@media screen and (max-width: 500px) {
+  .subscribeS5 h2 {
+    display: none;
+  }
+}
 
 .mainaboutus {
   text-align: center;
@@ -240,6 +262,11 @@ header nav ul li a:hover {
 .mainaboutus img {
   height: auto;
   width: 400px;
+}
+@media screen and (max-width: 500px) {
+  .mainaboutus img {
+    width: 200px;
+  }
 }
 @media screen and (max-width: 500px) {
   .mainaboutus {
@@ -366,6 +393,7 @@ header nav ul li a:hover {
 .contactus_main {
   color: aliceblue;
   background-image: url(../images/contactusbg.png);
+  text-align: center;
 }
 
 footer {
