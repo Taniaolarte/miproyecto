@@ -21,6 +21,10 @@ button{
         background-color: $bg-red;
     }
 }
+
+.btn-danger{
+    font-family: $fontP;
+}
 header{
     background-color: $bg-dark;
     padding-left: nth($padding, 2);
@@ -52,6 +56,13 @@ header{
     }    
 } 
 
+.indexmain:hover .imge{
+    transform: scale(1.2)
+}
+.imge{
+    transition: all 1.5s ease-in-out;
+    }
+
 .indexmain{
     height: 420px;
     background-image: url(../images/BGB.png);
@@ -59,7 +70,7 @@ header{
     color: nth($colores, 1);
     padding-left: nth($padding, 5);
     padding-top: nth($padding, 5);
-
+    
     h1{
         &:after{
             content: ' ';
@@ -94,16 +105,13 @@ header{
         height: auto;
         max-width: 230px;
         transition: all 1.5s ease-in-out;
-        &hover{
-            transform: scale(1.2)
-        }
         @media screen and (max-width:500px){
             display: none;
         }
     }
 }
 
-.coffeeS2{
+.coffees2{
     @extend %textocenter;
     margin-top: nth($padding, 3);
 
@@ -146,7 +154,10 @@ header{
     }
 }
 
-.aboutS3{
+.info-center{
+    padding-top: nth($padding, 2);
+}
+.abouts3{
     background-image: url(../images/TJCredBG.png);
     background-size: cover;
     padding-bottom: 80px;
@@ -154,7 +165,7 @@ header{
         @extend %textocenter;
     }
 }
-.caficultorS4{
+.caficultors4{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 100%;
@@ -165,6 +176,9 @@ header{
     background-position: center;
     padding-top: nth($padding, 5);
     padding-right: nth($padding, 5);
+    h2{
+        color: aliceblue;
+    }
     div{
         padding-top: nth($padding, 5);
     }
@@ -182,7 +196,7 @@ header{
     }
 }
 
-.subscribeS5{
+.subscribes5{
     background-color: $bg-dark;
     color: nth($colores, 1);
     padding-bottom: nth($padding, 5);
@@ -248,8 +262,8 @@ header{
     text-align: center;
     @media screen and (max-width:500px){
         display: grid;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         row-gap: 10px;
         grid-template-columns: 1fr;
         grid-template-rows: 6;
@@ -273,7 +287,7 @@ header{
         }
     }
 }
-.aboutusS2red{
+.aboutuss2red{
     background-color: $bg-red;
     height: 300px;
     text-align: center;
@@ -286,8 +300,9 @@ header{
     font-size: 30px;
 }
 
-.aboutusS3white{
+.aboutuss3white{
     text-align: center;
+    padding-bottom: nth($padding, 3);
 }
 
 #shopC{
@@ -310,6 +325,7 @@ header{
         width: nth($padding, 7);
         height: auto;
     }
+    
 }
 .productos{
     grid-area: productos;
@@ -335,7 +351,7 @@ header{
     text-align: center;
 }
 
-.suscriptionS2{
+.suscriptions2{
     @extend %blackpd;
     img{
         background-color: $bg-dark;
@@ -374,12 +390,21 @@ header{
     }
 }
 
+.suscription_form{
+    font-family: $fontR;
+    @extend %textocenter
+}
+
 footer{
     height: map-get($footer, $key: height);
     padding-top: map-get($footer, $key: padding-sup);
     text-align: map-get($footer, $key: text-align);
+    background-color: black;
+    color: nth($colores ,1 );
+
 
     a{
+        color: nth($colores ,1 );
         i{
             &:hover{
                 color: nth($colores , 1);
